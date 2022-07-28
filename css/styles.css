@@ -1,20 +1,36 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background: rgb(237, 247, 252);
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+
+.logo {
+    width: 200px;
+}
+
 .clearfix {
     clear: both;
 }
 
-.column1 {
+.column2 {
     float: left;
     width: 48%;
     margin: 1%;
 }
 
-.column2 {
-    float: left;
-    width: 33.3%;
-}
-
 .column3 {
     float: left;
-    width: 25%;
+    width: 33.33%;
 }
-
